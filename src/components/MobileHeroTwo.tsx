@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 export default function MobileHeroTwo() {
   return (
     <>
-    <div className="relative lg:hidden flex-col items-center justify-between h-[40vh]">
+    <div className="relative md:hidden flex-col items-center justify-between h-[40vh]">
        <img src="/assets/bg-app.png" alt="ourclientsbackground" className="absolute top-0 left-0 h-full object-cover z-0" 
       />
       <div className="relative flex flex-col items-center justify-start py-20 h-full gap-8 z-10">  
@@ -17,7 +17,7 @@ export default function MobileHeroTwo() {
           </Button>
       </div>
     </div>
-    <div className="relative lg:hidden flex-col items-center justify-between h-[35vh]">
+    <div className="relative md:hidden flex-col items-center justify-between h-[35vh]">
        <img src="/assets/bg-app.png" alt="ourclientsbackground" className="absolute top-0 left-0 h-full object-cover z-0" 
       />
       <div className="relative flex flex-col items-center justify-center py-20 h-full gap-8 z-10">  

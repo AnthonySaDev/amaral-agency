@@ -1,6 +1,6 @@
 export default function OurClients() {
   return (
-    <div className="relative flex-col items-center justify-between h-[90vh] lg:h-screen">
+    <div className="relative flex-col items-center justify-between h-[90vh] md:h-screen">
       <img src="/assets/juntese.png" alt="ourclientsbackground" className="absolute top-0 left-0 h-full object-cover z-0" 
       />
           <div className="relative flex flex-col items-center justify-center h-full gap-8 z-10 text-center">
