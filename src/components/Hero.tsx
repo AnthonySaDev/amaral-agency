@@ -61,7 +61,7 @@ export default function Hero() {
               <motion.img 
                 src="/assets/insta2.svg" 
                 alt="" 
-                className='absolute -top-28 left-20 size-16'
+                className='absolute -top-28 left-20 size-12'
                 animate={{ x: [-5, 5, -5], y: [0, -5, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 0.8 }}
               />
