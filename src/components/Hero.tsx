@@ -37,7 +37,7 @@ export default function Hero() {
           <img src="/assets/seta.svg" alt="seta" />
         </Button>
         <Button
-          className='w-[131px] min-h-[36px] my-10 rounded-[5px] py-5 bg-gradient-to-r to-[#FF003C] from-[#FF7E00] md:hidden flex items-center ml-5 z-30'
+          className='w-[131px] min-h-[36px] my-10 rounded-[5px] py-5 bg-gradient-to-r to-[#FF003C] from-[#FF7E00] md:hidden flex items-center ml-5 z-50'
         >
           <p className='text-black text-[10px]'>Levante de Vendas</p>
           <img src="/assets/seta.svg" alt="seta" className='filter invert' />
@@ -45,6 +45,18 @@ export default function Hero() {
         <img src="/assets/clientes.svg" alt="" className='hidden lg:flex'/>
       </div>
       <div className='relative h-full w-1/4 -ml-24 mx-auto flex items-center justify-center z-10'>
+      <div className='w-full relative md:hidden'>
+        <img src="/assets/x.svg" alt="" className='absolute -top-36 right-28'/>
+        <img src="/assets/insta.svg" alt="" className='absolute -top-24 left-14'/>
+        <img src="/assets/facebook.svg" alt="" className='' />
+        <img src="/assets/xadrez.svg" alt="" className='absolute right-4' />
+    </div>
+      <div className='w-full relative hidden xl:block ml-16'>
+        <img src="/assets/x2.svg" alt="" className='absolute -top-72 left-14'/>
+        <img src="/assets/xadrez2.svg" alt="" className='absolute -top-28 left-14' />
+        <img src="/assets/insta2.svg" alt="" className='absolute -top-32 left-72'/>
+        <img src="/assets/facebook2.svg" alt="" className='absolute top-32 left-10' />
+    </div>
     </div>
     </div>
     </main>
