@@ -6,7 +6,7 @@ export default function Header() {
 
         <img src="/assets/bala.svg" alt="" className='absolute top-6 hidden lg:flex left-0'/>
         <div className='relative w-full h-[92px] flex items-center xl:justify-around justify-center text-center z-10'>
-          <img src="/assets/logo.svg" alt="Logo" className="xl:h-12 lg:h-10 md:h-9 h-6 object-cover"  />
+          <img src="/assets/logo.svg" alt="Logo" className="xl:h-12 lg:h-10 md:h-9 h-6 object-cover mb-5 md:mb-0"  />
           <Button 
             variant="outline" 
             className="hidden xl:flex items-center gap-2 bg-gradient-to-r to-[#FF9300] from-[#FF185C] rounded-[8px] p-5 w-[250px] min-h-[40px]"
